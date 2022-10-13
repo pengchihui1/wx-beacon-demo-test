@@ -2,10 +2,14 @@
 const brtloc = require('./libs/brtloc.miniprogram.js');
 
 App({
+    // // 示例建筑ID
+    // buildingID: 'ZS020227',
+    // // 建筑有效token
+    // token: '5d4dfa4205ba4e2283e782780e091236',
     // 示例建筑ID
-    buildingID: 'ZS020227',
+    buildingID: '00230083',
     // 建筑有效token
-    token: '5d4dfa4205ba4e2283e782780e091236',
+    token: '9846c87aab7848679b9c001415f1d6be',
     // 唯一ID （建议使用openId）  - RandomUserId：随机分配唯一ID
     userId: brtloc.RandomUserId(),
     // 定位对象

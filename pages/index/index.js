@@ -25,6 +25,9 @@ Page({
                     beaconsHashString: '#' + beacons.toHashString()
                 });
             });
+            app.$locate.on('location', point => {
+              console.log("实时定位点location",point)
+            });
         }
     }
 });
